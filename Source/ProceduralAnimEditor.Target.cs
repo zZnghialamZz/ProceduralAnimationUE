@@ -7,9 +7,11 @@ public class ProceduralAnimEditorTarget : TargetRules
 {
 	public ProceduralAnimEditorTarget( TargetInfo Target) : base(Target)
 	{
+		Name = "ProceduralAnimEditor";
+		
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
-		ExtraModuleNames.Add("ProceduralAnim");
+		ExtraModuleNames.AddRange(new [] { "ProceduralAnim", "ProceduralAnimEditor" });
 	}
 }
