@@ -1,5 +1,9 @@
 # Visual Studio 2015 user specific files
 .vs/
+.vsconfig
+
+# Jetbrains config
+.idea/
 
 # Compiled Object files
 *.slo
@@ -72,3 +76,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Generated files
